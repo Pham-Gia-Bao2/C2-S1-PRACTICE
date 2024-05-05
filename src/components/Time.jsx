@@ -1,8 +1,9 @@
+
 function Time() {
-    let date = new Date().toLocaleString() + ""
-    return(
+    let time = new Date().toLocaleTimeString();
+    return (
         <h2>
-            {date}
+            {time}
         </h2>
     );
 }
